@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Cliente } from './clientes/cliente.model';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'fatec-clientes-a01';
+
+  // clientes: Cliente[] =[];
+  // onClienteAdicionado(cliente){
+  //   this.clientes = [...this.clientes, cliente];
+  // }
 }
